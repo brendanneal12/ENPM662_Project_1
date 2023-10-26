@@ -70,9 +70,9 @@ class KeyboardControlNode(Node):
                 elif key == 's':  # Reverse
                     linear_vel -= LIN_VEL_STEP_SIZE
                 elif key == 'd':  # Right
-                    steer_angle -= ANG_VEL_STEP_SIZE
-                elif key == 'a':  # Left
                     steer_angle += ANG_VEL_STEP_SIZE
+                elif key == 'a':  # Left
+                    steer_angle -= ANG_VEL_STEP_SIZE
 
 
                 if steer_angle>1.0:

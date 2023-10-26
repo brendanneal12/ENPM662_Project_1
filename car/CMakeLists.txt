@@ -34,7 +34,6 @@ install(
   launch/robot_description_publisher.py
   scripts/teleop.py
   scripts/controller.py
-  scripts/data_logger.py
   DESTINATION lib/${PROJECT_NAME}
   )
 
